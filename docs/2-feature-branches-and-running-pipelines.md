@@ -175,7 +175,7 @@ Now that the changes have been applied to the LUIS app and you have tested it, y
 
 1. On a real project, the changes should be reviewed and approved. However, for this sample, you can override this requirement since you are the Administrator of this repository.
    * Click on the **Merge pull request** button.
-   * On the next page, check **Use your administrator privileges to merge this pull request.**
+   * Then select the checkbox **Use your administrator privileges to merge this pull request.**
    * Click **Confirm merge**.
 
 ## Running the CI/CD pipeline
