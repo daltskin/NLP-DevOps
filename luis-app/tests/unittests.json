@@ -1,5 +1,6 @@
 ﻿[
   {
+    "name": "July23ToAugust13",
     "text": "i want paid time off from july 23 to august 13",
     "intent": "RequestVacation",
     "entities": [
@@ -135,45 +136,6 @@
           ]
         },
         "matchText": "vacations from march 3 to march 10"
-      }
-    ],
-    "intents": [
-      {
-        "intent": "RequestVacation"
-      }
-    ]
-  },
-  {
-    "text": "I want to request a vacation on may 5th for 10 days to have time with my family",
-    "intent": "RequestVacation",
-    "entities": [
-      {
-        "entityType": "vacation-request",
-        "entityValue": {
-          "start-date": [
-            {
-              "type": "date",
-              "values": [
-                {
-                  "timex": "XXXX-05-05",
-                  "value": "2019-05-05"
-                },
-                {
-                  "timex": "XXXX-05-05",
-                  "value": "2020-05-05"
-                }
-              ]
-            }
-          ],
-          "days-duration": [
-            {
-              "days-number": [
-                10
-              ]
-            }
-          ]
-        },
-        "matchText": "vacation on may 5th for 10 days"
       }
     ],
     "intents": [
